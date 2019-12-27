@@ -1,8 +1,8 @@
 import 'dart:convert';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:fusion_alice/features/ffdc/account_info/data/models/monetary_amount_model.dart';
-import 'package:fusion_alice/features/ffdc/account_info/domain/entities/monetary_amount.dart';
+import 'package:fusion_alice/features/ffdc/retail_intl/data/models/monetary_amount_model.dart';
+import 'package:fusion_alice/features/ffdc/retail_intl/domain/entities/monetary_amount.dart';
 
 import '../../../../../fixtures/fixture_reader.dart';
 

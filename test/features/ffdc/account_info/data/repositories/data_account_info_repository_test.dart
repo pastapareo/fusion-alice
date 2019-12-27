@@ -3,13 +3,13 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:fusion_alice/core/error/exception.dart';
 import 'package:fusion_alice/core/error/failures.dart';
 import 'package:fusion_alice/core/network/network_info.dart';
-import 'package:fusion_alice/features/ffdc/account_info/data/datasources/account_info_local_data_source.dart';
-import 'package:fusion_alice/features/ffdc/account_info/data/datasources/account_info_remote_data_source.dart';
-import 'package:fusion_alice/features/ffdc/account_info/data/models/account_balance_model.dart';
-import 'package:fusion_alice/features/ffdc/account_info/data/models/account_balances_model.dart';
-import 'package:fusion_alice/features/ffdc/account_info/data/models/monetary_amount_model.dart';
-import 'package:fusion_alice/features/ffdc/account_info/data/repositories/data_account_info_repository.dart';
-import 'package:fusion_alice/features/ffdc/account_info/domain/entities/account_balance_response.dart';
+import 'package:fusion_alice/features/ffdc/retail_intl/data/datasources/account_info_local_data_source.dart';
+import 'package:fusion_alice/features/ffdc/retail_intl/data/datasources/account_info_remote_data_source.dart';
+import 'package:fusion_alice/features/ffdc/retail_intl/data/models/account_balance_model.dart';
+import 'package:fusion_alice/features/ffdc/retail_intl/data/models/account_balances_model.dart';
+import 'package:fusion_alice/features/ffdc/retail_intl/data/models/monetary_amount_model.dart';
+import 'package:fusion_alice/features/ffdc/retail_intl/data/repositories/data_account_info_repository.dart';
+import 'package:fusion_alice/features/ffdc/retail_intl/domain/entities/account_balance_response.dart';
 import 'package:mockito/mockito.dart';
 
 class MockRemoteDataSource extends Mock implements AccountInfoRemoteDataSource {}

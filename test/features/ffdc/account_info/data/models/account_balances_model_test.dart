@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:fusion_alice/features/ffdc/account_info/data/models/account_balance_model.dart';
-import 'package:fusion_alice/features/ffdc/account_info/data/models/account_balances_model.dart';
-import 'package:fusion_alice/features/ffdc/account_info/data/models/monetary_amount_model.dart';
+import 'package:fusion_alice/features/ffdc/retail_intl/data/models/account_balance_model.dart';
+import 'package:fusion_alice/features/ffdc/retail_intl/data/models/account_balances_model.dart';
+import 'package:fusion_alice/features/ffdc/retail_intl/data/models/monetary_amount_model.dart';
 
 void main() {
   final tAmountModel = MonetaryAmountModel(amount: '73422.20', currency: 'USD');

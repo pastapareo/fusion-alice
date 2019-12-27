@@ -1,10 +1,10 @@
 import 'package:dartz/dartz.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:fusion_alice/features/ffdc/account_info/domain/entities/account_balance.dart';
-import 'package:fusion_alice/features/ffdc/account_info/domain/entities/account_balance_response.dart';
-import 'package:fusion_alice/features/ffdc/account_info/domain/entities/monetary_amount.dart';
-import 'package:fusion_alice/features/ffdc/account_info/domain/repositories/account_info_repository.dart';
-import 'package:fusion_alice/features/ffdc/account_info/domain/usecases/get_account_balance.dart';
+import 'package:fusion_alice/features/ffdc/retail_intl/domain/entities/account_balance.dart';
+import 'package:fusion_alice/features/ffdc/retail_intl/domain/entities/account_balance_response.dart';
+import 'package:fusion_alice/features/ffdc/retail_intl/domain/entities/monetary_amount.dart';
+import 'package:fusion_alice/features/ffdc/retail_intl/domain/repositories/account_info_repository.dart';
+import 'package:fusion_alice/features/ffdc/retail_intl/domain/usecases/get_account_balance.dart';
 import 'package:mockito/mockito.dart';
 
 class MockAccountRepository extends Mock implements AccountInfoRepository {}
