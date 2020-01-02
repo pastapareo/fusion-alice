@@ -4,18 +4,18 @@ import 'package:fusion_alice/features/ffdc/retail_intl/domain/entities/account_b
 import 'package:fusion_alice/features/ffdc/retail_intl/domain/entities/account_balance_response.dart';
 import 'package:fusion_alice/features/ffdc/retail_intl/domain/entities/monetary_amount.dart';
 import 'package:fusion_alice/features/ffdc/retail_intl/domain/repositories/account_info_repository.dart';
-import 'package:fusion_alice/features/ffdc/retail_intl/domain/usecases/get_account_balance.dart';
+import 'package:fusion_alice/features/ffdc/retail_intl/domain/usecases/get_account_balances.dart';
 import 'package:mockito/mockito.dart';
 
 class MockAccountRepository extends Mock implements AccountInfoRepository {}
 
 void main() {
-  GetAccountBalance usecase;
+  GetAccountBalances usecase;
   MockAccountRepository mockAccountRepository;
 
   setUp(() {
     mockAccountRepository = MockAccountRepository();
-    usecase = GetAccountBalance(mockAccountRepository);
+    usecase = GetAccountBalances(mockAccountRepository);
   });
 
   final tAccountId = '0543123467001';

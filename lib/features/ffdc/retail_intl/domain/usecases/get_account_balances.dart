@@ -7,10 +7,10 @@ import '../../../../../core/usecases/usecase.dart';
 import '../entities/account_balance_response.dart';
 import '../repositories/account_info_repository.dart';
 
-class GetAccountBalance extends UseCase<AccountBalanceResponse, Params> {
+class GetAccountBalances extends UseCase<AccountBalanceResponse, Params> {
   final AccountInfoRepository repository;
 
-  GetAccountBalance(this.repository);
+  GetAccountBalances(this.repository);
 
   @override
   Future<Either<Failure, AccountBalanceResponse>> call(Params params) async {
