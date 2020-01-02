@@ -4,7 +4,7 @@ import './bloc.dart';
 
 class AccountInfoBloc extends Bloc<AccountInfoEvent, AccountInfoState> {
   @override
-  AccountInfoState get initialState => InitialAccountInfoState();
+  AccountInfoState get initialState => Empty();
 
   @override
   Stream<AccountInfoState> mapEventToState(

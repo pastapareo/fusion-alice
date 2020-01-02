@@ -1,10 +1,8 @@
 import 'package:equatable/equatable.dart';
+import 'package:meta/meta.dart';
 
+@immutable
 abstract class AccountInfoState extends Equatable {
-  const AccountInfoState();
-}
-
-class InitialAccountInfoState extends AccountInfoState {
   @override
   List<Object> get props => [];
 }
