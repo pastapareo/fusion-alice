@@ -26,7 +26,7 @@ Future<void> init() async {
   );
 
   // *Use cases
-  sl.registerLazySingleton(() => useCase.GetAccountBalances);
+  sl.registerLazySingleton(() => useCase.GetAccountBalances(sl()));
 
   // *Repository
   sl.registerLazySingleton<AccountInfoRepository>(() => DataAccountInfoRepository(
