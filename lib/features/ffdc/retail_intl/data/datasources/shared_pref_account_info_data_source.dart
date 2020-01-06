@@ -4,8 +4,8 @@ import 'package:meta/meta.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../../../../core/error/exception.dart';
+import '../../../../../core/util/constants.dart';
 import '../models/account_balances_model.dart';
-import '../utils/constants.dart';
 import 'account_info_local_data_source.dart';
 
 class SharedPreferencesAccountInfoDataSource implements AccountInfoLocalDataSource {

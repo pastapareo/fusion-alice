@@ -2,8 +2,8 @@ import 'dart:convert';
 
 import 'package:flutter_test/flutter_test.dart';
 import 'package:fusion_alice/core/error/exception.dart';
+import 'package:fusion_alice/core/util/constants.dart';
 import 'package:fusion_alice/features/ffdc/retail_intl/data/datasources/shared_pref_account_info_data_source.dart';
-import 'package:fusion_alice/features/ffdc/retail_intl/data/utils/constants.dart';
 import 'package:fusion_alice/features/ffdc/retail_intl/data/models/account_balance_model.dart';
 import 'package:fusion_alice/features/ffdc/retail_intl/data/models/account_balances_model.dart';
 import 'package:fusion_alice/features/ffdc/retail_intl/data/models/monetary_amount_model.dart';
