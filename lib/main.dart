@@ -3,6 +3,7 @@ import 'package:fusion_alice/features/ffdc/retail_intl/presentation/pages/accoun
 import 'injection_container.dart' as di;
 
 void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
   await di.init();
   runApp(MyApp());
 }
