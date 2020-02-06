@@ -1,0 +1,9 @@
+{
+  "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiA",
+  "token_type": "bearer",
+  "expires_in": "3600",
+  "refresh_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiA",
+  "refresh_expires_in": "5400",
+  "scope": "openid",
+  "id_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiA"
+}
